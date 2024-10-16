@@ -1,3 +1,4 @@
+-- Email validation trigger
 DELIMITER $$
 CREATE TRIGGER valid_email_tg BEFORE UPDATE ON users
 FOR EACH ROW
